@@ -1,0 +1,25 @@
+[2023/08/20 10:52:09.108, jusched.exe (PID: 14176, TID: 14180), UpdateScheduler.cpp:1126 (WinMain)]
+	INFO: **************** Running jusched ****************
+
+[2023/08/20 10:57:09.115, jusched.exe (PID: 14176, TID: 14180), UpdateConf.cpp:205 (ResetDefaultUpdateSchedule)]
+	INFO: ResetDefaultUpdateSchedule is calling SetDefaultUpdateSchedule becuase ID in reg did not match.
+[2023/08/20 10:57:09.119, jusched.exe (PID: 14176, TID: 14180), Registry.cpp:403 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\Frequency]=REG_SZ[AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQkjqbpNgbEmyVNqSMIiQnQQAAAACAAAAAAADZgAAwAAAABAAAABtnHB6VqHEtQmAe/7/YrerAAAAAASAAACgAAAAEAAAAMzkYah7ETnZUdv6N3MpOeUIAAAA3SIRhrRiEvoUAAAAWLoUbdLTKAVQcIbrMEp17GV9ZBA=]
+[2023/08/20 10:57:09.120, jusched.exe (PID: 14176, TID: 14180), Registry.cpp:403 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\UpdateSchedule]=REG_SZ[AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQkjqbpNgbEmyVNqSMIiQnQQAAAACAAAAAAADZgAAwAAAABAAAABTQXJINNbRD8UMVONZtUBuAAAAAASAAACgAAAAEAAAANY6Pp+vRimebb/vXUipOxUIAAAAlUIX6ujb7OkUAAAASPSsSu9HNSHlh6vKdRuBrEIXGnM=]
+[2023/08/20 10:57:09.120, jusched.exe (PID: 14176, TID: 14180), Registry.cpp:403 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\UpdateMin]=REG_SZ[AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQkjqbpNgbEmyVNqSMIiQnQQAAAACAAAAAAADZgAAwAAAABAAAADxf8M/9lizohbbXPAfXOSHAAAAAASAAACgAAAAEAAAAGZrA2MZXnTry3FvZnjA9ToIAAAA6EKgdzIW3nYUAAAAm2aixjrz/wxac62wJFjszjUjr+M=]
+[2023/08/20 10:57:09.120, jusched.exe (PID: 14176, TID: 14180), Registry.cpp:403 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\ScheduleId]=REG_SZ[S-1-5-21-1519805851-3484343018-3771147286-60304]
+[2023/08/20 10:57:09.121, jusched.exe (PID: 14176, TID: 14180), RegData.cpp:76 (au::RegData::getValue)]
+	ERROR: getValue(String) failed: Registry.cpp(299) at Registry::getValue(): query value (HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\LocalFileName) error. System error [2](system error 2 (The system cannot find the file specified))
+[2023/08/20 10:57:09.156, jusched.exe (PID: 14176, TID: 14180), UpdateScheduler.cpp:513 (SetSleepTime)]
+	INFO: JavaUpdate : LastFinishTime is after LastScheduledTime, sleeping until next schedule Time: Mon Aug 21 09:11:00 2023
+
+[2023/08/20 10:57:09.156, jusched.exe (PID: 14176, TID: 14180), UpdateScheduler.cpp:1306 (WinMain)]
+	INFO: JavaUpdate NextSchedTime=Mon Aug 21 09:11:00 2023
+JavaUpdatelastSchedTime=Mon Aug 14 09:11:00 2023
+JavaUpdatenextSchedTime=Mon Aug 21 09:11:00 2023
+JavaUpdatesleeptime (sec=80031, hours=22, days=0.93)
+actual sleep time=80031000 msecs (22:13:51) for JavaUpdate
+

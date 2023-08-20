@@ -1,0 +1,26 @@
+[2023-08-20 11:02:04:0972] Adobe ARM 1.824.460.1032 logging started.
+[2023-08-20 11:02:10:0080] ARMDownloader::BITS Error: The certificate authority is invalid or incorrect
+[2023-08-20 11:02:10:0081] ARMDownloader::BITS Error Context: The error occurred while the remote file was being processed.
+[2023-08-20 11:02:10:0192] all BITs attempts failed
+[2023-08-20 11:02:10:0192]  Error Code: -2145386495
+[2023-08-20 11:02:10:0192] ** Setting Error Condition: 140000
+[2023-08-20 11:02:10:0214] BITs failed, download manifest Job is not in Transferred state
+[2023-08-20 11:02:12:0068] BB download failed: https://armmf.adobe.com/arm-manifests/win/ArmManifest3.msi
+[2023-08-20 11:02:12:0079] Invalid ProductVersion in Session
+[2023-08-20 11:02:12:0163] ProductName: Adobe Acrobat (64-bit)
+[2023-08-20 11:02:12:0173] ProductCode: {AC76BA86-1033-1033-7760-BC15014EA700}
+[2023-08-20 11:02:12:0173] ProductName: Adobe Acrobat (64-bit)
+[2023-08-20 11:02:12:0173] ProductVersion: 22.003.20314
+[2023-08-20 11:02:12:0173] ProductUACPatching: enabled
+[2023-08-20 11:02:12:0405] EULA not yet accepted
+[2023-08-20 11:02:12:0405] ** Setting Error Condition: 100700
+[2023-08-20 11:02:12:0433] Using registered preference AUTO_ALL
+[2023-08-20 11:02:13:0592] ARMDownloader::BITS Error: The certificate authority is invalid or incorrect
+[2023-08-20 11:02:13:0592] ARMDownloader::BITS Error Context: The error occurred while the remote file was being processed.
+[2023-08-20 11:02:13:0702] all BITs attempts failed
+[2023-08-20 11:02:13:0702]  Error Code: -2145386495
+[2023-08-20 11:02:13:0702] ** Setting Error Condition: 140000
+[2023-08-20 11:02:13:0712] BITs failed, download manifest Job is not in Transferred state
+[2023-08-20 11:02:13:0952] BB download failed: https://armmf.adobe.com/arm-manifests/win/ServicesUpdater/DC/AcroManifest3.msi
+[2023-08-20 11:02:14:0187] ARM returns ERROR_SUCCESS
+[2023-08-20 11:02:14:0187] Adobe ARM 1.824.460.1032 logging finished.

@@ -1,0 +1,25 @@
+[0820/105024.509:VERBOSE1:setup_main.cc(1533)] Command Line: "C:\Program Files\Google\Chrome\Application\116.0.5845.96\Installer\chrmstp.exe" --configure-user-settings --verbose-logging --system-level --channel=stable
+[0820/105024.509:VERBOSE1:setup_main.cc(1539)] system install is 1
+[0820/105024.510:VERBOSE1:install_util.cc(215)] Existing Chrome version found: 116.0.5845.96
+[0820/105024.510:VERBOSE1:installer_state.cc(87)] Install Chrome
+[0820/105024.540:VERBOSE1:install_util.cc(246)] Windows NT 10.0.19045
+[0820/105024.542:VERBOSE1:install_worker.cc(1079)] Adding unregistration items for per-user Metro keys.
+[0820/105024.587:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list Cleanup deprecated per-user registrations
+[0820/105024.587:VERBOSE1:registry_util.cc(22)] Deleting registry key Software\Google\Chrome\Metro
+[0820/105024.587:VERBOSE1:registry_util.cc(22)] Deleting registry key Software\Google\Chrome\Metro
+[0820/105024.587:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list Cleanup deprecated per-user registrations
+[0820/105024.588:VERBOSE1:install.cc(482)] Launching ""C:\Program Files\Google\Chrome\Application\116.0.5845.96\Installer\chrmstp.exe" --channel=stable --system-level --verbose-logging --installerdata="C:\Program Files\Google\Chrome\Application\master_preferences" --create-shortcuts=2 --install-level=0" to create shortcuts
+[0820/105024.610:VERBOSE1:setup_main.cc(1533)] Command Line: "C:\Program Files\Google\Chrome\Application\116.0.5845.96\Installer\chrmstp.exe" --channel=stable --system-level --verbose-logging --installerdata="C:\Program Files\Google\Chrome\Application\master_preferences" --create-shortcuts=2 --install-level=0
+[0820/105024.611:VERBOSE1:setup_main.cc(1539)] system install is 1
+[0820/105024.611:VERBOSE1:install_util.cc(215)] Existing Chrome version found: 116.0.5845.96
+[0820/105024.611:VERBOSE1:installer_state.cc(87)] Install Chrome
+[0820/105024.632:VERBOSE1:install_util.cc(246)] Windows NT 10.0.19045
+[0820/105024.634:VERBOSE1:install.cc(120)] Overwriting per-user Desktop "Google Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0820/105024.636:WARNING:install.cc(118)] Failed: Overwriting (maybe the shortcut doesn't exist?) per-user Desktop "Google Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0820/105024.636:VERBOSE1:install.cc(120)] Overwriting per-user Quick Launch "Google Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0820/105024.637:WARNING:install.cc(118)] Failed: Overwriting (maybe the shortcut doesn't exist?) per-user Quick Launch "Google Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0820/105024.637:VERBOSE1:install.cc(120)] Overwriting per-user Start menu "Google Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0820/105024.637:WARNING:install.cc(118)] Failed: Overwriting (maybe the shortcut doesn't exist?) per-user Start menu "Google Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0820/105024.645:ERROR:persistent_histogram_storage.cc(146)] Persistent histograms fail to write to file: C:\Program Files\Google\Chrome\Application\SetupMetrics\20230820105024.pma
+[0820/105024.656:VERBOSE1:install.cc(498)] Shortcut creation process succeeded.
+[0820/105024.667:ERROR:persistent_histogram_storage.cc(146)] Persistent histograms fail to write to file: C:\Program Files\Google\Chrome\Application\SetupMetrics\20230820105024.pma
